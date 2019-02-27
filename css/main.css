@@ -23,6 +23,7 @@ body {
 
 ul {
   list-style-type: none;
+  padding: 0;
 }
 
 nav li {
@@ -36,10 +37,27 @@ a {
 
 a:hover {
   background-color: #0074d9;
-  color: #e2e2e2;
+  color: #fff;
 }
 
 header {
   background-color: #e2e2e2;
   text-align: center;
+}
+
+.current {
+  background-color: #0074d9;
+  color: #fff;
+}
+
+@media only screen and (min-width: 38em) {
+
+  h1 {
+    text-align: left;
+  }
+
+  ul {
+    text-align: right;
+  }
+
 }
